@@ -142,8 +142,6 @@ body {
 
     .apresentacao {
         flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
     }
 
     .apresentacao__conteudo {
