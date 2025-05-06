@@ -21,11 +21,11 @@ body {
     box-sizing: border-box;
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
-    overflow: hidden
+    overflow: auto;
 }
 
 .cabecalho{
-    padding: 0.4% 0% 0% 15%;
+    padding: 2% 0% 0% 15%;
 }
 
 .cabecalho__menu {
@@ -116,7 +116,7 @@ body {
     border: 5px solid var(--cor-terciaria);
     border-radius: 8px;
     gap: 16px;
-    width: 35%;
+    width: 30%;
     height: 30%;
 }
 
@@ -128,6 +128,11 @@ body {
     font-family: var(--font-secundaria); 
     font-size: var(--font-size-primaria);
     font-weight: 400; 
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%;
 
 
 }
