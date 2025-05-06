@@ -155,16 +155,14 @@ body {
         flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
-        gap: 0px;
+        gap: 3px;
     }
 
     .apresentacao__conteudo {
-        width: 100%;    
+        width: 100%; 
+        gap: 10px;   
     }
 
-    .apresentacao__links{
-        
-    }
 
     .imagem{
         width: 40%;
